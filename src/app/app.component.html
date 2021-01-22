@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+    
+  </h1>
+  <br/>{{result}}
+
+  <Br/> userid <input [(ngModel)]='user.userid' />
+  <Br/> password <input [(ngModel)]='user.password' />
+  
+
+  <br/><button (click)='login()'>login</button>
+  <button (click)='reset()'>reset</button>
+
+  <hr/>
+
+<router-outlet> </router-outlet>
